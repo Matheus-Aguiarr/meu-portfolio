@@ -6,6 +6,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media-query.css">
+    <link rel="stylesheet" href="styles/effect.css">
     <title>Matheus Aguiar</title>
 </head>
 <body>
@@ -40,7 +41,9 @@
             <h3>
                 Hello, I'm
             </h3>
-            <h1>Matheus Aguiar</h1>
+            <h1>
+                Matheus Aguiar
+            </h1>
             <h3>
                 Front-End <span>Developer</span>
             </h3>
@@ -147,10 +150,11 @@
         <h2>
             Contact <span>Me!</span>
 
-            <form action="" method="">
+            <form action="https://formsubmit.co/matheusaguiardealmeida@gmail.com" method="POST">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="E-mail" placeholder="E-mail">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="hidden" name="_captcha" value="false">
                 </div>
 
                 <div class="input-box">
@@ -160,7 +164,7 @@
 
                 <textarea cols="30" rows="10" placeholder="Message"></textarea>
 
-                <a href="" class="btn"> Send Message </a>
+                <button type="submit" class="submit-form">Send Message</button>
             </form>
         </h2>
     </section>

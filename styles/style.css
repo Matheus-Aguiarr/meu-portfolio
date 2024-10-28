@@ -94,6 +94,9 @@ span {
     align-items: center;
 }
 
+
+
+
 .home-img {
     border-right: solid .6rem;
     border-bottom: solid .6rem;
@@ -324,7 +327,7 @@ form textarea {
     box-shadow: 0 0 0.3rem var(--main-color);
 }
 
-.btn {
+.btn, .submit-form {
     display: inline-block;
     padding: 0.7rem 1.8rem;
     background-color: var(--main-color);
@@ -336,7 +339,7 @@ form textarea {
     margin-top: 1.2rem;
 }
 
-.btn:hover {
+.btn:hover, .submit-form:hover {
     box-shadow: 0 0 0.3rem var(--main-color);
     background-color: inherit;
     color: var(--main-color);
@@ -366,7 +369,7 @@ form textarea {
     transform: translate(0, -0.65rem) rotate(45deg);
 }
 
-.contact .btn {
+.contact .submit-form {
     font-size: 0.5em;
     height: 50px;
 }
