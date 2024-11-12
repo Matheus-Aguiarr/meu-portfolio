@@ -10,7 +10,9 @@
 </head>
 <body>
     <header>
-        <a href="#home" class="logo">Portfolio</a>
+        <a href="#home" class="logo">
+            Portfolio
+        </a>
 
         <div class="nav">
             <a href="#home">Home</a>
@@ -35,163 +37,148 @@
         </div>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>
-                Olá, eu sou 
-            </h3>
-            <h1>
-                Matheus Aguiar
-            </h1>
-            <h3>
-                Front-End <span>Developer</span>
-            </h3>
-
-            <p>
-                Eu tenho <span id="age"></span> anos, estudo programação desde o início do ano de 2024 e tenho o sonho de ser um programador. Quem sabe não possa ser na sua empresa? rsrs
-            </p>
-
-            <div class="social-media">
-                <a href="https://github.com/Matheus-Aguiarr"><i class='bx bxl-github'></i></a>
-                <a href="https://www.instagram.com/theussz01/"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
-            </div>
-            
-                <a href="cv/Currículo Matheus Aguiar (1).pdf" class="btn" download>
-                    Baixar Currículo
-                </a>
-            
-        </div>
-        <div class="home-img">
-            <img src="imgs/minha-foto-removebg-preview.png" alt="Profile Picture">
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <h2>
-            Meus <span>Serviços</span>
-        </h2>
-
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code-alt' ></i>
+    <div class="content">
+        <section class="home" id="home">
+            <div class="home-content">
                 <h3>
-                    Web Development
+                    Olá, eu sou
+                </h3>
+                <h1>
+                    Matheus Aguiar
+                </h1>
+                <h3>
+                    Front-End <span>Developer</span>
                 </h3>
                 <p>
-                    Eu desenvolvo sites utilizando HTML5, CSS3, JavaScript e React!
+                    Eu tenho <span id="age"></span> anos, estudo programação desde o início do ano de 2024 e tenho o sonho de ser um programador. Quem sabe não possa ser na sua empresa? rsrs
                 </p>
-
-                <a href="" class="btn">Saiba mais</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bx-mobile-alt' ></i>
-                <h3>
-                    Mobile Development
-                </h3>
-                <p>
-                    Ainda não domino, mas estou aprendendo a desenvolver aplicativos móveis utilizando React Native!
-                </p>
-
-                <a href="" class="btn">Saiba Mais</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <p class="coment">
-            /* Clique em cima dos projetos para ser redirecionado */
-        </p>
-        <h2>
-            Meus Últimos <span>Projetos</span>
-        </h2>
-        <div class="portfolio-container">
-            <p>
-                Projeto que <span>Calcula a altura</span> dos filhos de acordo com a altura dos pais.
-            </p>
-            <div class="portfolio-box">
-                <img src="imgs/calcula-altura.png" alt="">
-                <div class="portfolio-layer">
-                    
-                    <h3 class="portfolio-write">
-                        Ir ao <span>Projeto</span>
-                    </h3>
-                    <a href="https://matheus-aguiarr.github.io/projetos-pessoais/calculaaltura/index.html"><i class='bx bx-link-external' ></i></a>
+                <div class="social-media">
+                    <a href="https://github.com/Matheus-Aguiarr"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/theussz01/"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
                 </div>
-            </div>
-            <p>
-                Projeto de <span>Calculadora IMC</span>
-            </p>
-            <div class="portfolio-box">
-                <img src="imgs/calcula-IMC.png" alt="">
-                <div class="portfolio-layer">
-                    
-                    <h3 class="portfolio-write">
-                        Ir ao <span>Projeto</span>
-                    </h3>
-                    <a href="https://matheus-aguiarr.github.io/projetos-pessoais/calculadoraIMC/index.html"><i class='bx bx-link-external' ></i></a>
-                </div>
-            </div>
-            <p>
-                Projeto que <span>Troca a cor do fundo</span> do site de acordo com a cor escolhida pelo usuário.
-            </p>
-            <div class="portfolio-box">
-                <img src="imgs/projeto-background.png" alt="">
-                <div class="portfolio-layer">
-                    
-                    <h3 class="portfolio-write">
-                        Ir ao <span>Projeto</span>
-                    </h3>
-                    <a href="https://matheus-aguiarr.github.io/projetos-pessoais/troca-cor/index.html"><i class='bx bx-link-external' ></i></a>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2>
-            Fala <span>Comigo!</span>
-
-            <form action="https://formsubmit.co/matheusaguiardealmeida@gmail.com" method="POST">
-                <div class="input-box">
-                    <input type="text" placeholder="Seu nome" name="name" required>
-                    <input type="email" placeholder="E-mail" name="email" required>
-                    <input type="hidden" name="_captcha" value="false">
-                </div>
-
-                <div class="input-box">
-                    <input type="number" name="" id="" placeholder="Número de telefone (opcional)">
-                    <input type="text" name="" id="" placeholder="Assunto da mensagem">
-                </div>
-
-                <textarea cols="30" rows="10" placeholder="Mensagem..." name="message"></textarea>
-
-                <button type="submit" class="submit-form">Enviar Mensagem</button>
-            </form>
-        </h2>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="imgs/minha-foto-removebg-preview.png" alt="">
-        </div>
-
-        <div class="about-content">
-            <h3>Sobre <span>Mim</span></h3>
-            <h1>
-                Front-End <span>Developer</span>
-            </h1>
-            <p>
-                Nasci e vivo em Guarulhos-sp e procuro um primeiro emprego na área de desenvolvimento. Sou fluente em inglês e estou estudando espanhol!
-            </p>
-
-            <a href="https://github.com/Matheus-Aguiarr" class="btn">Visite meu github</a>
-        </div>
-
         
-    </section>
+                    <a href="cv/Currículo Matheus Aguiar (1).pdf" class="btn" download>
+                        Baixar Currículo
+                    </a>
+        
+            </div>
+            <div class="home-img">
+                <img src="imgs/minha-foto-removebg-preview.png" alt="Profile Picture">
+            </div>
+        </section>
+        <section class="services" id="services">
+            <h2>
+                Meus <span>Serviços</span>
+            </h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>
+                        Web Development
+                    </h3>
+                    <p>
+                        Eu desenvolvo sites utilizando HTML5, CSS3, JavaScript e React!
+                    </p>
+                    <a href="" class="btn">Saiba mais</a>
+                </div>
+                <div class="services-box">
+                    <i class='bx bx-mobile-alt' ></i>
+                    <h3>
+                        Mobile Development
+                    </h3>
+                    <p>
+                        Ainda não domino, mas estou aprendendo a desenvolver aplicativos móveis utilizando React Native!
+                    </p>
+                    <a href="" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <p class="coment">
+                /* Clique em cima dos projetos para ser redirecionado */
+            </p>
+            <h2>
+                Meus Últimos <span>Projetos</span>
+            </h2>
+            <div class="portfolio-container">
+                <p>
+                    Projeto que <span>Calcula a altura</span> dos filhos de acordo com a altura dos pais.
+                </p>
+                <div class="portfolio-box">
+                    <img src="imgs/calcula-altura.png" alt="">
+                    <div class="portfolio-layer">
+        
+                        <h3 class="portfolio-write">
+                            Ir ao <span>Projeto</span>
+                        </h3>
+                        <a href="https://matheus-aguiarr.github.io/projetos-pessoais/calculaaltura/index.html"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <p>
+                    Projeto de <span>Calculadora IMC</span>
+                </p>
+                <div class="portfolio-box">
+                    <img src="imgs/calcula-IMC.png" alt="">
+                    <div class="portfolio-layer">
+        
+                        <h3 class="portfolio-write">
+                            Ir ao <span>Projeto</span>
+                        </h3>
+                        <a href="https://matheus-aguiarr.github.io/projetos-pessoais/calculadoraIMC/index.html"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <p>
+                    Projeto que <span>Troca a cor do fundo</span> do site de acordo com a cor escolhida pelo usuário.
+                </p>
+                <div class="portfolio-box">
+                    <img src="imgs/projeto-background.png" alt="">
+                    <div class="portfolio-layer">
+        
+                        <h3 class="portfolio-write">
+                            Ir ao <span>Projeto</span>
+                        </h3>
+                        <a href="https://matheus-aguiarr.github.io/projetos-pessoais/troca-cor/index.html"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>
+                Fala <span>Comigo!</span>
+                <form action="https://formsubmit.co/matheusaguiardealmeida@gmail.com" method="POST">
+                    <div class="input-box">
+                        <input type="text" placeholder="Seu nome" name="name" required>
+                        <input type="email" placeholder="E-mail" name="email" required>
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" name="" id="" placeholder="Número de telefone (opcional)">
+                        <input type="text" name="" id="" placeholder="Assunto da mensagem">
+                    </div>
+                    <textarea cols="30" rows="10" placeholder="Mensagem..." name="message"></textarea>
+                    <button type="submit" class="submit-form">Enviar Mensagem</button>
+                </form>
+            </h2>
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="imgs/minha-foto-removebg-preview.png" alt="">
+            </div>
+            <div class="about-content">
+                <h3>Sobre <span>Mim</span></h3>
+                <h1>
+                    Front-End <span>Developer</span>
+                </h1>
+                <p>
+                    Nasci e vivo em Guarulhos-sp e procuro um primeiro emprego na área de desenvolvimento. Sou fluente em inglês e estou estudando espanhol!
+                </p>
+                <a href="https://github.com/Matheus-Aguiarr" class="btn">Visite meu github</a>
+            </div>
+        
+        </section>
+    </div>
 </body>
 <script src="scripts/script.js"></script>
 </html>
