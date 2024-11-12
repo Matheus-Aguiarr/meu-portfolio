@@ -6,7 +6,7 @@ menuHamburguer.addEventListener('click', () => {
 
 const content = document.querySelector('.content');
 content.addEventListener('click', () => {
-    toggleMenu();
+    menuHamburguer.classList.contains('change') ? toggleMenu() : null;
 })
 
 function toggleMenu() {
